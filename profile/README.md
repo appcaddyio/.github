@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/appcaddyio/.github/main/brand/banner/banner-A-og-1200x630.png">
-  <img alt="AppCaddy. Small tools that do one thing, then get out of the way." src="https://raw.githubusercontent.com/appcaddyio/.github/main/brand/banner/banner-B-og-1200x630.png" width="640">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/appcaddyio/.github/main/brand/banner/appcaddy-banner-A-og-1200x630.png">
+  <img alt="AppCaddy. Small tools that do one thing, then get out of the way." src="https://raw.githubusercontent.com/appcaddyio/.github/main/brand/banner/appcaddy-banner-B-og-1200x630.png" width="640">
 </picture>
 
 # AppCaddy

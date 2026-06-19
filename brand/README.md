@@ -1,6 +1,6 @@
 # AppCaddy brand assets
 
-Logos, icons, and banners for AppCaddy. Vector masters live in `svg/`. Everything else is exported PNG.
+Logos, icons, and banners for AppCaddy. One folder per type; each holds the vector master (`.svg`) plus its PNG exports. Every file is `appcaddy-` named.
 
 Raw base URL for embedding in other repos and pages:
 
@@ -8,21 +8,18 @@ Raw base URL for embedding in other repos and pages:
 https://raw.githubusercontent.com/appcaddyio/.github/main/brand/
 ```
 
-## Files
+## Folders
 
-| Path | Use | Notes |
+| Folder | What's in it | Use |
 |---|---|---|
-| `svg/` | Scalable masters | All self-contained vector. `wordmark` and `lockup` are outlined paths (text set in DM Sans 700, converted to curves), so they render the same everywhere with no font installed. |
-| `icon/appcaddy-icon-*.png` | App icon, favicon, PWA | Rounded square. 16 to 1024 px, includes 180 (apple-touch) and 192. |
-| `icon/favicon.ico` | Classic favicon | Multi-size 16/32/48 in one file. |
-| `icon/appcaddy-maskable-*.png` | PWA and Android maskable | Full-bleed teal, glyph inside the safe zone. 512 and 192. |
-| `avatar/` | Profile pictures | Circular mark. GitHub org, Buy Me a Coffee, social accounts. |
-| `mark/` | Icon only, no tile | `teal` for light backgrounds, `white` for dark. |
-| `inverse/` | Icon, teal on light | For placing on the canvas color. |
-| `wordmark/` | Text only | PNG at 80/160/320. See light/dark rule below. |
-| `lockup/` | Icon plus wordmark | PNG at 96/200/400. |
-| `banner/` | Social and OG headers | Concepts A, B, C. Each in fb 1640x624, linkedin 1584x396, og 1200x630, x 1500x500. B is the primary, A is the colored variant. |
-| `store/play-feature-graphic-1024x500.png` | Play Store feature graphic | Required for any Play listing. |
+| `icon/` | `appcaddy-icon.svg`, PNG 16 to 1024, `appcaddy-favicon.ico`, `appcaddy-maskable-192/512.png` | App icon, favicon, PWA. Rounded square. |
+| `wordmark/` | `appcaddy-wordmark-{light,dark}.svg` + PNG 80/160/320 | Text only. Set in DM Sans 700, outlined to curves. |
+| `lockup/` | `appcaddy-lockup-{light,dark}.svg` + PNG 96/200/400 | Icon plus wordmark together. |
+| `mark/` | `appcaddy-mark-{teal,white}.svg` + PNG 256/512/1024 | Icon glyph only, no tile. |
+| `inverse/` | `appcaddy-inverse.svg` + PNG 128 to 1024 | Teal glyph on the canvas color. |
+| `avatar/` | `appcaddy-avatar.svg` + PNG 128 to 1024 | Circular profile pictures. |
+| `banner/` | `appcaddy-banner-{A,B,C}-{fb,linkedin,og,x}-<WxH>.png`, plus `appcaddy-banner-minimal-*` | Social and OG headers. B is the primary, A is the colored variant. |
+| `store/` | `appcaddy-feature-graphic-1024x500.png` | Play Store feature graphic. |
 
 ## Light and dark
 
@@ -30,7 +27,7 @@ https://raw.githubusercontent.com/appcaddyio/.github/main/brand/
 
 ## Typeface
 
-The wordmark is set in DM Sans 700 at natural spacing. The "App" segment uses Ink, the "Caddy" segment uses Accent.
+The wordmark is set in DM Sans 700. "App" uses Ink, "Caddy" uses Accent.
 
 ## Colors
 
@@ -38,7 +35,7 @@ Canvas `#F4F5F4` &middot; Ink `#141414` &middot; Accent `#3D7575` &middot; Dark-
 
 ## Web favicon
 
-Copy the icon files into the site root, then add to `<head>`:
+Copy the icon files into the site root (rename `appcaddy-favicon.ico` to `favicon.ico`), then add to `<head>`:
 
 ```html
 <link rel="icon" href="/favicon.ico" sizes="32x32">

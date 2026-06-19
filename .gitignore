@@ -1,4 +1,3 @@
-# Local working sources for brand assets. Finalized masters and exports live in brand/.
-AppCaddy logo concepts/
-AppCaddy logo concepts - minimal/
-AppCaddy logo concepts - SVG/
+# OS and editor cruft
+Thumbs.db
+.DS_Store
