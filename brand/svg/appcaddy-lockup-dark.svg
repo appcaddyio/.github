@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1483.76 249.65" width="1483.76" height="249.65">
+<defs></defs>
+<rect x="27.31" y="27.31" width="195.04" height="195.04" rx="42.91" fill="#3D7575"></rect>
+<path d="M 97.73 99.98 L 97.73 84.18 A 15.81 15.81 0 0 1 113.53 68.37 L 136.12 68.37 A 15.81 15.81 0 0 1 151.93 84.18 L 151.93 99.98" fill="none" stroke="#FFFFFF" stroke-width="10.16" stroke-linecap="round" stroke-linejoin="round"></path><rect x="60.46" y="97.73" width="128.73" height="83.56" rx="19.2" fill="#FFFFFF"></rect><circle cx="106.19" cy="123.13" r="9.03" fill="#3D7575"></circle><circle cx="143.46" cy="123.13" r="9.03" fill="#3D7575"></circle><circle cx="106.19" cy="155.88" r="9.03" fill="#3D7575"></circle><circle cx="143.46" cy="155.88" r="9.03" fill="#3D7575"></circle>
+<text x="280.86" y="174.83"><tspan fill="#141414">App</tspan><tspan fill="#3D7575">Caddy</tspan></text>
+</svg>
