@@ -38,10 +38,9 @@ Small tools. One purpose.
 </div>
 
 ---
-
-We won't sell your data. Because we don't want it anyway.
-
 <div align="center">
+  
+We won't sell your data. Because we don't want it anyway.
 
 Published by AppCaddy &middot; [appcaddy.io](https://appcaddy.io)
 
