@@ -31,8 +31,6 @@
 
 <div align="center">
 
-# AppCaddy
-
 Small tools. One purpose.
 
 </div>
